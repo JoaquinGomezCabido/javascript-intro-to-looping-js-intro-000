@@ -10,7 +10,7 @@ var forLoop = (array) => {
 }
 
 var whileLoop = (n) => {
-  while(n >= 0) {
+  while(n > 0) {
     console.log(n)
     n--
   }
@@ -18,7 +18,7 @@ var whileLoop = (n) => {
 }
 
 function incrementVariable() {
-  var i = i + 1;
+  i = i + 1;
   return i;
 }
 
